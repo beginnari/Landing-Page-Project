@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../odin-recipes"
+		},
+		{
+			"path": "../css-exercises"
+		}
+	],
+	"settings": {}
+}
