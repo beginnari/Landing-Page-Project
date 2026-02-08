@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 
+width 80vw??
+
+.top 
+
+.header
+
+.herologo
+
+.herosecondary
+
+.heromain
+
+button
+(second button has white edge? how)
+
+img size!
+
+.content
+
+.quote
+.signature
+
+.newsletter
+
+ */
+.top.herosecondary {
+    text-align: center
+}
+
+/* footer!
+SHOULD work if text size and colour only other specs.     */
+
+ 
