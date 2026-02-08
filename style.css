@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: Roboto, sans-serif;
 }
 body {
     padding: 0;
@@ -49,7 +53,7 @@ img {
 }
 
 .herologo {
-    
+    font-weight: bold;
     font-size: 24px;
     color: #f9faf8;
 }
@@ -72,23 +76,16 @@ button {
     color: white;
     font-weight: bold;
     padding: 0.5em 2em;
-}
+    border-radius: 0.5em;
+    border: none;
+    font-size: 18px;
+ }
+
 /* 
-body?
-width 80vw??
 
-Font!!
-button
-(second button has white edge? how)
-
-img size!
+img size
 
 .content
-
-.quote
-.signature
-
-.newsletter: second button?
 
  */
 .quote {
@@ -110,8 +107,21 @@ img size!
      background-color: #3882f6;
      margin: 5em 20%;
     display: flex;
+    border-radius: 1em;
+    padding: 3em 5em;
+    justify-content: space-between;
+    align-items: center;    
     
 }
+.newsletter p {
+    padding: 0;
+    margin: 0;
+}
+.newsletter button {
+    border: 1px white solid;
+    align-self: center
+}
+
 .top.herosecondary {
     justify-content: center;
     padding: 1em;
